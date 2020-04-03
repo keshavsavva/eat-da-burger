@@ -6,5 +6,6 @@ CREATE TABLE burgers
 (
     id int not null AUTO_INCREMENT,
     name varchar(255) not null,
-    devoured boolean not null default 0
+    devoured boolean not null default 0,
+    primary key (id)
 )
